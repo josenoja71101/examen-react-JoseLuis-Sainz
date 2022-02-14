@@ -2,14 +2,10 @@ import React from 'react';
 import {
   Navbar,
   Container,
-  Form,
-  Nav,
-  FormControl,
-  Button,
-  Offcanvas
+  Nav
 } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
-import {MenuItems} from '../data/MenuItems';
+import { Link } from 'react-router-dom';
+import { MenuItems } from '../data/MenuItems';
 
 
 class Menu extends React.Component {
