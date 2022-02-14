@@ -1,12 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Menu from './components/Menu';
-import { MenuItems } from './MenuItems';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-function App() {
+export function App() {
   return (
     <Router>
-      <Menu/>
+      <Menu />
       {MenuItems.map((item) => {
         return (
           <Route
@@ -20,5 +19,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

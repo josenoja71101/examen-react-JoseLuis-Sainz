@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap';
 import { MenuItems } from '../MenuItems';
 import { Link } from 'react-router-dom';
-import './menu.css';
+
 
 class Menu extends React.Component {
   constructor(props) {
