@@ -1,11 +1,12 @@
 import React from 'react';
-import Menu from './components/Menu';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Menu from './components/Menu';
+import {MenuItems} from './data/MenuItems';
 
 export function App() {
   return (
     <Router>
-      <Menu />
+      <Menu/>
       {MenuItems.map((item) => {
         return (
           <Route
